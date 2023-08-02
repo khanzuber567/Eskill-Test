@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@200;300&family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-family: "poppins", sans-serif;
+}
+
+body {
+  display: flex;
+}
+
+#logo {
+  height: 40px;
+  width: 45px;
+  margin-bottom: -4rem;
+  margin-top: -2rem;
+  margin-left: .5rem;
+  border-radius: 115px;
+}
+
+.LogoName {
+  padding-bottom: 1.5rem;
+  margin-left: 6rem;
+}
+
+
+.Sidebar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 280px;
+  height: 100vh;
+  padding: 0 1.7rem;
+  color: #fff;
+  overflow: hidden;
+  transition: all 0.9s linear;
+  background: rgb(32, 41, 56);
+}
+
+/* .Sidebar:hover{ 
+  width: 280px;
+  transition: 0.5s;
+} */
+
+.Logo {
+  height: 80px;
+  padding: 16px;
+}
+
+.menu {
+  height: 88%;
+  position: relative;
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  padding: 1rem;
+  margin: 8px 0;
+  border-radius: 8px;
+  transition: all 0.5s ease-in-out;
+}
+
+.menu li:hover,
+.active {
+  background: #e0e0e058;
+}
+
+.menu a {
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.menu a span {
+  overflow: hidden;
+}
+
+.menu a i {
+  font-size: 1.2rem;
+}
+
+.navbar {
+  height: -100vh;
+}
+
+
+
+
+
+
+
+
+
+
+                                               /* Login Page */
+.Form {
+  height: 100vh;
+  /* padding-left: 45rem; */
+  padding-bottom: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* background-color: rgb(22,0,65); */
+  /* width: 120rem; */
+  /* padding-top: 10rem; */
+
+}
+
+.headline {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+
+.Username {
+  width: 420px;
+
+}
+
+.Password {
+  width: 420px;
+}
+
+.Signin-btn {
+  height:40px;
+  width: 420px;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+}
+
+                                                           /******* OTP Page***** */
+.Form {
+  height: 100vh;
+  padding-left: 45rem;
+  padding-bottom: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.headline {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+
+.Username {
+  width: 420px;
+
+}
+
+.Password {
+  width: 420px;
+}
+
+.Proceed{
+  width: 420px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+}
+
+                                                    /******** Boxes******* */
+
+.container {
+  height: 120vh;
+  display: flex;
+  margin-left: 290px;
+  border-radius: 15px;
+  background-color:rgb(240,241,243);
+
+}
+
+.Add-btn {
+  /* margin-left: -0rem; */
+  /* margin-top:rem; */
+  width: 6rem;
+  padding: 0;
+  margin-top: -60rem;
+  /* margin-left: -10rem; */
+  background: rgb(32, 41, 56);
+  color: white;
+}
+
+
+
+.box-1 {
+  height: 130px;
+  width: 600px;
+  border-radius: 5px;
+  margin-top: 7rem;
+  margin-left: -8rem;
+  background-color: white;
+}
+
+.box-2 {
+  height: 130px;
+  width: 600px;
+  border-radius: 5px;
+  margin-top: 17rem;
+  margin-left: -37.5rem;
+  background-color: white;
+}
+
+
+.box-3 {
+  height: 130px;
+  width: 600px;
+  border-radius: 5px;
+  background-color: white;
+  margin-left: 3rem;
+  margin-top: 7rem;
+
+}
+
+.box-4 {
+  height: 130px;
+  width: 600px;
+  border-radius: 5px;
+  border-color: black;
+  outline: black;
+  background-color: white;
+  margin-left: -37.5rem;
+  margin-top: 17rem;
+}
+
+.text{
+  margin-top: 27rem;
+  margin-left: -78rem;
+  margin-right: 30rem;
+
+
+}
+
+.balance{
+  display: flex;
+  margin-top: 1rem;
+  justify-content: center;
+  
+}
+.UpLine{
+  display: flex;
+  margin-top: 1rem;
+  justify-content: center;
+
+}
+.Downline{
+  display: flex;
+  margin-top: 1rem;
+  justify-content: center;
+
+}
+.Player{
+  display: flex;
+  margin-top: 1rem;
+  justify-content: center;
+
+}
+.Statement{
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+  color: darkgreen;
+
+}
+.view-1{
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+  color:darkgreen;
+}
+.view-2{
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+   
+}
+.view-3{
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+  color:darkgreen;
+}
+.share{
+  margin-left: -62rem;
+  border-radius: 8px;
+  
+}
+.Export{
+  margin-left: -.5rem;
+  border-radius: 8px;
+
+}
+.Search{
+  /* margin-left: 15rem; */
+  /* width: 320px; */
+  padding-left: 400px;
+  margin-right:  -40rem;
+  /* border: 2px solid red; */
+  border-radius: 0px 10px 10px 0px;
+  border: 1px solid black;
+}
+.Search-icon{
+  height: 38px;
+width: 35px;
+border-radius: 10px 0px 0px 10px;
+border: 1px solid black;
+
+}
+.setting-icon{
+  /* padding-left: 200rem; */
+  font-size: 30px;
+}
