@@ -9,8 +9,8 @@ const App = () => {
   return (
     <Router>
        <Login/>
-       {/* <OTP/> */}
-       {/* <Dashboard/> */}
+       <OTP/>
+       <Dashboard/>
       
      <Routes>
      <Route path="/Add-btn" element={<Add-btn />} />
